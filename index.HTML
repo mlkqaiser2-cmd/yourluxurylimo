@@ -1,561 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Luxury Limousine Service NYC | Executive Transportation & Transfers | Your Luxury Limo</title>
-    
-    <meta name="description" content="Your Luxury Limo provides seamless, professional executive limousine service and airport transfers across NYC, New Jersey, and Connecticut. Book your luxury transportation inquiry today.">
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Your Luxury Limo",
-      "description": "Premium Luxury Limousine and Executive Transportation Services in the NYC Tri-State Area.",
-      "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "123 Executive Blvd", 
-            "addressLocality": "New York",
-            "addressRegion": "NY",
-            "postalCode": "10001",
-            "addressCountry": "US"
-        },
-      "url": "https://yourluxurylimo.com", 
-      "telephone": "+14422221174",
-      "priceRange": "$$$",
-      "serviceType": ["Limousine Service", "Airport Transfer", "Executive Transportation", "Hourly Charter"],
-      "areaServed": ["New York, NY", "New Jersey, NJ", "Connecticut, CT"]
-    }
-    </script>
+<meta charset="utf-8">
+<title>JFK Black Cars</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Inter',sans-serif;background:#fff;color:#111}
+.header{position:fixed;top:0;width:100%;background:#fff;border-bottom:1px solid #e0e0e0;z-index:1000}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:76px;max-width:1180px;margin:0 auto;padding:0 24px;font-size:14px}
+.logo{font-weight:600;font-size:18px;letter-spacing:.5px}
+.nav{display:flex;align-items:center;gap:28px}
+.nav-link{color:#111;transition:color .2s}.nav-link:hover{color:#c9a96e}
+.arrow{font-size:10px;margin-left:4px}
+.btn-signin{background:#000;color:#fff;padding:10px 18px;border-radius:4px;font-weight:500}
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #0A0A0A; color: #E5E5E5; }
-        .hero-bg {
-            background-image: url('https://placehold.co/1920x1080/0A0A0A/E5E5E5?text=Luxury+NYC+Fleet');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed; /* Parallax effect */
-        }
-        .luxury-gradient { background: linear-gradient(90deg, #FFD700 0%, #B8860B 100%); }
-        .card-shadow { box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2); }
-        /* Style for the logo to ensure it fits well */
-        .header-logo {
-            height: 48px; /* Adjust height as needed */
-            width: auto;
-        }
-    </style>
+.booking-bar{background:#fafafa;border-bottom:1px solid #e0e0e0;padding:32px 0;margin-top:76px}
+.booking-wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.booking-title{font-size:32px;font-weight:300;margin-bottom:24px;letter-spacing:-1px}
+.booking-row{display:flex;align-items:end;gap:12px;flex-wrap:wrap}
+.booking-slot{background:#fff;border:1px solid #ccc;border-radius:4px;padding:14px;width:200px}
+.booking-slot label{font-size:11px;color:#666;text-transform:uppercase;letter-spacing:.5px}
+.booking-slot input,.booking-slot select{border:none;outline:none;font-size:14px;color:#111;width:100%}
+.btn-book{background:#c9a96e;color:#fff;padding:14px 28px;border:none;border-radius:4px;font-weight:500;cursor:pointer}
+.btn-book:hover{background:#b08c57}
+.note{font-size:12px;color:#666;margin-top:8px}
+</style>
 </head>
 <body>
-    <script>
-        const __app_id = 'yourluxurylimo-inquiry';
-        const __firebase_config = '{}';
-        const __initial_auth_token = '';
-        const apiKey = "";
-    </script>
 
-    <header class="sticky top-0 z-50 bg-black/90 shadow-2xl">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
-            <a href="#" class="flex items-center">
-                <img src="https://placehold.co/200x50/B8860B/0A0A0A?text=YourLuxuryLimo+Logo" alt="Your Luxury Limo Logo" class="header-logo">
-            </a>
-            <nav class="hidden md:flex space-x-8 font-medium">
-                <a href="#booking-form-section" class="text-white hover:text-yellow-400 transition">Inquiry</a>
-                <a href="#services" class="text-white hover:text-yellow-400 transition">Services</a>
-                <a href="#pricing" class="text-white hover:text-yellow-400 transition">Pricing</a>
-                <a href="#fleet" class="text-white hover:text-yellow-400 transition">Fleet</a>
-                <a href="#contact" class="text-white hover:text-yellow-400 transition">Contact</a>
-            </nav>
-            <a href="#booking-form-section" class="md:hidden luxury-gradient text-black font-bold py-2 px-4 rounded-full transition hover:opacity-90">Inquire</a>
-        </div>
-    </header>
+<header class="header">
+  <div class="header-inner">
+    <a class="logo" href="/">JFK Black Cars</a>
+    <nav class="nav">
+      <a class="nav-link" href="#">Our services<span class="arrow">▼</span></a>
+      <a class="nav-link" href="#">For business</a>
+      <a class="nav-link" href="#">For chauffeurs</a>
+      <a class="nav-link" href="#">Help</a>
+      <a class="nav-link" href="#">English<span class="arrow">▼</span></a>
+      <a class="btn-signin" href="#">@ Sign in</a>
+    </nav>
+  </div>
+</header>
 
-    <section class="hero-bg h-[85vh] flex items-center justify-center text-center relative">
-        <div class="absolute inset-0 bg-black/70"></div>
-        <div class="relative z-10 p-6 max-w-4xl mx-auto">
-            <h2 class="text-5xl sm:text-7xl font-black text-white leading-tight mb-4">
-                The Epitome of Luxury Travel in the NYC Tri-State Area
-            </h2>
-            <p class="text-xl sm:text-2xl text-gray-300 font-light mb-10">
-                Seamless, professional, and discreet executive transportation across the New York, New Jersey, and Connecticut.
-            </p>
-            <a href="#booking-form-section" class="luxury-gradient text-black font-extrabold text-lg py-4 px-10 rounded-xl transition transform hover:scale-105 card-shadow">
-                BOOK AN INQUIRY
-            </a>
-        </div>
-    </section>
+<section class="booking-bar">
+  <div class="booking-wrap">
+    <div class="booking-title">Limo Service in NYC</div>
+    <div class="booking-row">
+      <div class="booking-slot"><label>One way</label><select><option>One way</option><option>By the hour</option></select></div>
+      <div class="booking-slot"><label>From</label><input type="text" placeholder="Address, airport, hotel,"></div>
+      <div class="booking-slot"><label>To</label><input type="text" placeholder="Address, airport, hotel,"></div>
+      <div class="booking-slot"><label>Date</label><input type="date" value="2026-01-17"></div>
+      <div class="booking-slot"><label>Pickup time</label><input type="time" value="04:11"></div>
+      <button class="btn-book">Search</button>
+    </div>
+    <div class="note">Chauffeur will wait 15 minutes</div>
+  </div>
+</section>
 
-    <section id="booking-form-section" class="py-16 sm:py-24 bg-gray-900">
-        <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-center text-4xl font-extrabold mb-12 luxury-gradient bg-clip-text text-transparent">
-                Send Your Booking Inquiry for Executive Limousine Transportation
-            </h3>
-            <div id="booking-card" class="bg-gray-800 p-6 sm:p-10 rounded-2xl shadow-2xl card-shadow">
-                <p class="text-center text-gray-300 mb-8">
-                    Fill out the details below and an agent will contact you within the hour with a confirmed price and booking link.
-                </p>
-                <form id="inquiry-form" onsubmit="submitInquiry(event)" class="space-y-6">
-
-                    <h4 class="text-xl font-bold text-yellow-400 border-b border-gray-700 pb-2 mb-4">Trip Details</h4>
-                    
-                    <div>
-                        <label for="serviceType" class="block text-sm font-medium text-gray-300 mb-2">Service Type</label>
-                        <select id="serviceType" name="serviceType" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400">
-                            <option value="Airport Transfer">Airport Transfer (JFK, LGA, EWR)</option>
-                            <option value="Point-to-Point">Point-to-Point (NYC/NJ/CT)</option>
-                            <option value="Hourly Charter">Hourly Charter (Minimum 3 hours)</option>
-                            <option value="Special Event">Special Event (Wedding/Prom/Corporate)</option>
-                        </select>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
-                            <label for="pickupLocation" class="block text-sm font-medium text-gray-300 mb-2">Pickup Location</label>
-                            <input type="text" id="pickupLocation" name="pickupLocation" placeholder="Full address or Airport/FBO code (e.g. JFK)" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                        </div>
-                        <div>
-                            <label for="dropoffLocation" class="block text-sm font-medium text-gray-300 mb-2">Dropoff Location</label>
-                            <input type="text" id="dropoffLocation" name="dropoffLocation" placeholder="Full address or Airport/FBO code (e.g. EWR)" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                        <div>
-                            <label for="tripDate" class="block text-sm font-medium text-gray-300 mb-2">Date</label>
-                            <input type="date" id="tripDate" name="tripDate" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                        </div>
-                        <div>
-                            <label for="tripTime" class="block text-sm font-medium text-gray-300 mb-2">Time</label>
-                            <input type="time" id="tripTime" name="tripTime" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                        </div>
-                        <div>
-                            <label for="passengers" class="block text-sm font-medium text-gray-300 mb-2">Passengers</label>
-                            <input type="number" id="passengers" name="passengers" min="1" max="50" value="1" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                        </div>
-                    </div>
-                    <div>
-                        <label for="vehicleType" class="block text-sm font-medium text-gray-300 mb-2">Preferred Vehicle Class</label>
-                        <select id="vehicleType" name="vehicleType" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400">
-                            <option value="Executive Sedan (3 Pax)">Executive Sedan (3 Pax)</option>
-                            <option value="Luxury SUV (6 Pax)">Luxury SUV (6 Pax)</option>
-                            <option value="Stretch Limousine (8-10 Pax)">Stretch Limousine (8-10 Pax)</option>
-                            <option value="Sprinter Van (14 Pax)">Executive Sprinter Van (14 Pax)</option>
-                            <option value="Party Bus (20+ Pax)">Luxury Party Bus (20+ Pax)</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="notes" class="block text-sm font-medium text-gray-300 mb-2">Special Requests/Notes (e.g., Flight number, Child seat, etc.)</label>
-                        <textarea id="notes" name="notes" rows="3" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" placeholder="Optional details..."></textarea>
-                    </div>
-                    
-                    <h4 class="text-xl font-bold text-yellow-400 border-b border-gray-700 pt-4 pb-2 mb-4">Contact Information</h4>
-
-                    <div>
-                        <label for="fullName" class="block text-sm font-medium text-gray-300 mb-2">Full Name</label>
-                        <input type="text" id="fullName" name="fullName" placeholder="John Doe" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                    </div>
-                    <div>
-                        <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                        <input type="email" id="email" name="_replyto" placeholder="john.doe@example.com" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                    </div>
-                    <div>
-                        <label for="phone" class="block text-sm font-medium text-gray-300 mb-2">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="(44) 2222-1174" class="w-full p-3 rounded-lg bg-gray-700 text-white border-none focus:ring-yellow-400 focus:border-yellow-400" required>
-                    </div>
-
-                    <div class="flex justify-end pt-4">
-                        <button type="submit" id="submit-button" class="luxury-gradient text-black font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
-                            SEND INQUIRY
-                        </button>
-                    </div>
-                </form>
-                
-                <div id="confirmation-message" class="hidden text-center mt-8 p-6 bg-yellow-900/50 text-yellow-300 rounded-lg">
-                    </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20 sm:py-32 bg-black">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <p class="text-yellow-400 font-semibold mb-2">OUR SERVICES</p>
-            <h3 class="text-4xl sm:text-5xl font-extrabold text-white mb-16">
-                Serving the Entire NYC Tri-State Area
-            </h3>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div class="bg-gray-900 p-6 rounded-xl border-t-4 border-yellow-400 hover:bg-gray-800 transition transform hover:scale-[1.02]">
-                    <div class="text-4xl text-yellow-400 mb-4">✈️</div>
-                    <h4 class="text-xl font-bold text-white mb-3">Airport Transfers</h4>
-                    <p class="text-gray-400">Guaranteed on-time service to and from JFK, LGA, EWR and FBOs. Flight tracking included.</p>
-                </div>
-                <div class="bg-gray-900 p-6 rounded-xl border-t-4 border-yellow-400 hover:bg-gray-800 transition transform hover:scale-[1.02]">
-                    <div class="text-4xl text-yellow-400 mb-4">💼</div>
-                    <h4 class="text-xl font-bold text-white mb-3">Corporate & Executive</h4>
-                    <p class="text-gray-400">Discreet transportation for roadshows, client meetings, and executive travel across the Tri-State Area.</p>
-                </div>
-                <div class="bg-gray-900 p-6 rounded-xl border-t-4 border-yellow-400 hover:bg-gray-800 transition transform hover:scale-[1.02]">
-                    <div class="text-4xl text-yellow-400 mb-4">🥂</div>
-                    <h4 class="text-xl font-bold text-white mb-3">Special Events</h4>
-                    <p class="text-gray-400">Weddings, galas, concerts, and nightlife. Arrive in style with our luxurious stretch limousines.</p>
-                </div>
-                <div class="bg-gray-900 p-6 rounded-xl border-t-4 border-yellow-400 hover:bg-gray-800 transition transform hover:scale-[1.02]">
-                    <div class="text-4xl text-yellow-400 mb-4">🏙️</div>
-                    <h4 class="text-xl font-bold text-white mb-3">Hourly Charter</h4>
-                    <p class="text-gray-400">The vehicle and chauffeur are exclusively yours for as long as you need them (3-hour minimum).</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="py-20 sm:py-32 bg-black">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <p class="text-yellow-400 font-semibold mb-2">PRICING</p>
-            <h3 class="text-4xl sm:text-5xl font-extrabold text-white mb-16">
-                Executive Sedan & Luxury SUV Example Rates
-            </h3>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <div class="bg-gray-900 p-8 rounded-xl border-t-4 border-yellow-400 text-left hover:bg-gray-800 transition duration-300">
-                    <h4 class="text-2xl font-bold text-white mb-4 flex items-center">
-                        <span class="text-4xl mr-3">✈️</span> Executive Sedan Airport Transfers
-                    </h4>
-                    <p class="text-gray-400 mb-6 border-b border-gray-700 pb-4">
-                        Standard flat rates for transfers between Manhattan (Zone 1) and major airports.
-                    </p>
-                    <ul class="space-y-4 text-lg text-gray-200">
-                        <li class="flex justify-between font-semibold">
-                            <span>LGA Airport</span>
-                            <span class="text-yellow-400">$150</span>
-                        </li>
-                        <li class="flex justify-between font-semibold">
-                            <span>JFK Airport</span>
-                            <span class="text-yellow-400">$150</span>
-                        </li>
-                        <li class="flex justify-between font-semibold">
-                            <span>Newark (EWR) Airport</span>
-                            <span class="text-yellow-400">$150</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="bg-gray-900 p-8 rounded-xl border-t-4 border-yellow-400 text-left hover:bg-gray-800 transition duration-300">
-                    <h4 class="text-2xl font-bold text-white mb-4 flex items-center">
-                        <span class="text-4xl mr-3">⏱️</span> Hourly Charter Service
-                    </h4>
-                    <p class="text-gray-400 mb-6 border-b border-gray-700 pb-4">
-                        Keep your dedicated vehicle and chauffeur on standby for flexible travel.
-                    </p>
-                    <div class="space-y-4 text-lg text-gray-200">
-                         <div class="flex justify-between font-semibold">
-                            <span>Luxury Sedan (Hourly)</span>
-                            <span class="text-yellow-400">$75 / Hour</span> 
-                            <span>Luxury Suv (Hourly)</span>
-                            <span class="text-yellow-400">$90 / Hour</span>
-
-                        </div>
-                        <p class="text-sm text-gray-500 italic mt-2">
-                            *3-hour minimum applies for all hourly charter bookings.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="max-w-4xl mx-auto mt-16">
-                <h4 class="text-3xl font-bold text-white mb-8">Luxury SUV Airport Transfers (+$20)</h4>
-                 <div class="bg-gray-900 p-8 rounded-xl border-t-4 border-yellow-400 text-left hover:bg-gray-800 transition duration-300">
-                    <p class="text-gray-400 mb-6 border-b border-gray-700 pb-4">
-                        Standard flat rates for the SUV class, including Cadillac Escalade ESV or similar.
-                    </p>
-                    <ul class="space-y-4 text-lg text-gray-200">
-                        <li class="flex justify-between font-semibold">
-                            <span>LGA Airport</span>
-                            <span class="text-yellow-400">$170</span>
-                        </li>
-                        <li class="flex justify-between font-semibold">
-                            <span>JFK Airport</span>
-                            <span class="text-yellow-400">$170</span>
-                        </li>
-                        <li class="flex justify-between font-semibold">
-                            <span>Newark (EWR) Airport</span>
-                            <span class="text-yellow-400">$170</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <p class="text-sm text-gray-500 italic mt-12 px-4 max-w-4xl mx-auto">
-                All rates are example base fares and do not include the final cost. Final price is **plus tolls, parking, and gratuity where applicable**. A standard service fee may also apply.
-            </p>
-        </div>
-    </section>
-    <section id="fleet" class="py-20 sm:py-32 bg-gray-900">
-        <div class="max-w-7xl mx-auto px-4">
-            <p class="text-yellow-400 font-semibold mb-2 text-center">THE FLEET</p>
-            <h3 class="text-4xl sm:text-5xl font-extrabold text-white mb-16 text-center">
-                Our Premier Luxury Vehicle Selection
-            </h3>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Cadillac+Escalade+ESV" alt="Luxury Cadillac Escalade ESV SUV" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">Cadillac Escalade ESV</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 6 Passengers | 6 Bags</p>
-                        <p class="text-gray-400">Ultimate space and luxury for larger groups or airport transfers with extra luggage.</p>
-                    </div>
-                </div>
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Chevrolet+Suburban" alt="Premium Chevrolet Suburban SUV" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">Chevrolet Suburban</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 6 Passengers | 6 Bags</p>
-                        <p class="text-gray-400">Reliable and spacious for executive and family travel, combining comfort with utility.</p>
-                    </div>
-                </div>
-                 <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=GMC+Yukon+XL" alt="GMC Yukon XL luxury SUV" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">GMC Yukon XL</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 6 Passengers | 6 Bags</p>
-                        <p class="text-gray-400">Rugged elegance with ample passenger and cargo space, perfect for any journey.</p>
-                    </div>
-                </div>
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Cadillac+XT6" alt="Cadillac XT6 mid-size luxury SUV" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">Cadillac XT6</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 4 Passengers | 4 Bags</p>
-                        <p class="text-gray-400">A sophisticated mid-size SUV offering comfort and style for smaller groups.</p>
-                    </div>
-                </div>
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Cadillac+CT6" alt="Cadillac CT6 luxury sedan" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">Cadillac CT6</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 3 Passengers | 2 Bags</p>
-                        <p class="text-gray-400">Cadillac's flagship sedan, delivering an unrivaled blend of comfort and advanced features.</p>
-                    </div>
-                </div>
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Mercedes-Benz+E-Class" alt="Mercedes-Benz E-Class executive sedan" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">Mercedes-Benz E-Class</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 3 Passengers | 2 Bags</p>
-                        <p class="text-gray-400">Executive class sedan, perfect for business travel and elegant personal journeys.</p>
-                    </div>
-                </div>
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=BMW+7+Series" alt="BMW 7 Series luxury sedan" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">BMW 7 Series</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 3 Passengers | 2 Bags</p>
-                        <p class="text-gray-400">The epitome of German engineering, offering a dynamic and luxurious ride experience.</p>
-                    </div>
-                </div>
-                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-yellow-500/30 transition duration-300">
-                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Executive+Sprinter+Van" alt="Executive Sprinter Van for group travel" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h4 class="text-2xl font-bold text-white mb-2">Executive Sprinter Van</h4>
-                        <p class="text-yellow-400 font-semibold mb-4">Capacity: 10-14 Passengers | 10 Bags</p>
-                        <p class="text-gray-400">Ideal for corporate groups, private events, and comfortable large-group transfers.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="bg-black py-16">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <h3 class="text-3xl font-extrabold mb-4 luxury-gradient bg-clip-text text-transparent">
-                Contact Your Luxury Limo
-            </h3>
-            <p class="text-gray-400 mb-8">24/7 Dispatch and Support for the New York, New Jersey, and Connecticut Service Area.</p>
-            
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-xl text-white font-medium">
-                <div>📞 <a href="tel:+14422221174" class="hover:text-yellow-400 transition">(44) 2222-1174</a></div>
-                <div>📧 <a href="mailto:info@yourluxurylimo.com" class="hover:text-yellow-400 transition">info@yourluxurylimo.com</a></div>
-            </div>
-
-            <p class="text-sm text-gray-600 mt-16">&copy; 2025 Your Luxury Limo. All Rights Reserved. Premier Chauffeur for NYC Tri-State Area.</p>
-        </div>
-    </footer>
-
-    <script>
-        // 🚀 STEP 1: Formspree endpoint for data collection
-        const API_ENDPOINT = 'https://formspree.io/f/xpwyedeg'; 
-        
-        // 🛑 STEP 2: DYNAMIC SQUARE PAYMENT LINKS
-        // These links correspond to pre-set flat-rate airport transfer services.
-        const PAYMENT_LINKS = {
-            // Sedan Transfer - JFK/LGA Flat Rate
-            'sedan_jfk_lga': "https://square.link/u/Xw5z54ep",
-            
-            // Sedan Transfer - EWR Flat Rate
-            'sedan_ewr': "https://square.link/u/A6xGgdum",
-            
-            // SUV Transfer - EWR/JFK/LGA Flat Rate
-            'suv_all': "https://square.link/u/yXYjNLq0",
-        };
-
-        async function submitInquiry(event) {
-            event.preventDefault(); // Stop the form from submitting normally
-            
-            const confirmation = document.getElementById('confirmation-message');
-            const form = document.getElementById('inquiry-form');
-            const submitButton = document.getElementById('submit-button');
-
-            // --- 1. Basic Validation ---
-            const requiredFields = ['fullName', 'email', 'pickupLocation', 'dropoffLocation', 'tripDate', 'tripTime', 'passengers', 'phone'];
-            let isValid = true;
-            for (const fieldId of requiredFields) {
-                if (!form[fieldId].value) {
-                    isValid = false;
-                    break;
-                }
-            }
-
-            if (!isValid) {
-                confirmation.classList.remove('bg-yellow-900/50', 'text-yellow-300');
-                confirmation.classList.add('bg-red-900/50', 'text-red-300');
-                confirmation.innerHTML = '🛑 Please ensure all required fields are filled out.';
-                confirmation.classList.remove('hidden');
-                confirmation.scrollIntoView({ behavior: 'smooth' });
-                return;
-            }
-
-            // --- 2. Disable Button and Show Loading State ---
-            submitButton.disabled = true;
-            submitButton.innerHTML = 'Sending...';
-
-            // --- 3. Formspree AJAX Submission ---
-            try {
-                const formData = new FormData(form); 
-
-                const response = await fetch(API_ENDPOINT, {
-                    method: 'POST',
-                    body: formData, 
-                    headers: {
-                        'Accept': 'application/json' 
-                    }
-                });
-
-                if (response.ok) {
-                    // --- 4. SUCCESS: Determine and display the correct payment link or contact message ---
-                    form.classList.add('hidden'); // Hide the form after success
-                    
-                    const serviceType = form['serviceType'].value;
-                    const vehicleType = form['vehicleType'].value;
-                    // Check locations (using upper case for reliable comparison)
-                    const pickupLocation = form['pickupLocation'].value.toUpperCase();
-                    const dropoffLocation = form['dropoffLocation'].value.toUpperCase();
-                    
-                    let selectedSquareLink = null;
-                    let paymentButtonText = "";
-                    let confirmationMessageText = "";
-                    let isFlatRateTransfer = false;
-
-                    // Logic to select the specific flat-rate payment link
-                    if (serviceType.includes('Airport Transfer')) {
-                        const isEWR = pickupLocation.includes('EWR') || dropoffLocation.includes('EWR');
-                        const isJFK = pickupLocation.includes('JFK') || dropoffLocation.includes('JFK');
-                        const isLGA = pickupLocation.includes('LGA') || dropoffLocation.includes('LGA');
-                        
-                        // Check if the route is a recognized NYC flat-rate airport transfer
-                        const isNYCAirportTransfer = isEWR || isJFK || isLGA;
-
-                        if (isNYCAirportTransfer) {
-                            if (vehicleType.includes('SUV')) {
-                                // SUV Transfer (covers all three NYC airports - LGA $170, JFK $170, EWR $170)
-                                selectedSquareLink = PAYMENT_LINKS.suv_all;
-                                paymentButtonText = "PAY FLAT RATE SUV TRANSFER FEE";
-                                confirmationMessageText = "Great! Your NYC Airport SUV transfer is a fixed rate. Click below to confirm and pay the **full flat rate** now to secure your booking:";
-                                isFlatRateTransfer = true;
-                            } else if (vehicleType.includes('Sedan')) {
-                                // Sedan Transfer (LGA $150, JFK $150, EWR $150)
-                                if (isEWR) {
-                                    selectedSquareLink = PAYMENT_LINKS.sedan_ewr;
-                                    paymentButtonText = "PAY EWR SEDAN TRANSFER FEE ($150)";
-                                    confirmationMessageText = "Great! Your EWR Sedan transfer is a fixed rate ($150). Click below to confirm and pay the **full flat rate** now to secure your booking:";
-                                    isFlatRateTransfer = true;
-                                } else if (isJFK || isLGA) {
-                                    // Default to JFK/LGA
-                                    selectedSquareLink = PAYMENT_LINKS.sedan_jfk_lga;
-                                    paymentButtonText = "PAY JFK/LGA SEDAN TRANSFER FEE ($150/$150)";
-                                    confirmationMessageText = "Great! Your JFK/LGA Sedan transfer is a fixed rate ($150/$150). Click below to confirm and pay the **full flat rate** now to secure your booking:";
-                                    isFlatRateTransfer = true;
-                                }
-                            }
-                        } else {
-                            // If it's an Airport Transfer but not a standard NYC airport (e.g. Westchester, Long Island, other Tri-State FBOs)
-                            isFlatRateTransfer = false;
-                        }
-                    } 
-                    
-                    confirmation.classList.remove('hidden', 'bg-red-900/50', 'text-red-300');
-                    confirmation.classList.add('bg-yellow-900/50', 'text-yellow-300');
-
-
-                    if (isFlatRateTransfer) {
-                        // Display link for flat rates
-                         confirmation.innerHTML = `
-                            <p class="text-xl font-bold mb-4">✅ Inquiry Received!</p>
-                            <p class="mb-6">${confirmationMessageText}</p>
-                            <a href="${selectedSquareLink}" target="_blank" class="luxury-gradient text-black font-extrabold text-lg py-3 px-8 rounded-full transition transform hover:scale-110 inline-block">
-                                ${paymentButtonText}
-                            </a>
-                            <p class="mt-4 text-sm text-gray-400">You will be redirected to our secure Square Online payment page. If you close this window, an agent will follow up shortly regarding your reservation.</p>
-                        `;
-                    } else {
-                        // Display call/email instructions for all other custom quotes (Hourly, Point-to-Point, other vehicles, and non-flat-rate Airport Transfers)
-                        confirmationMessageText = `Thank you for submitting your trip details. Your request for a **${serviceType}** with a **${vehicleType.split('(')[0].trim()}** requires a custom quote or manual confirmation. Please contact us directly using the information below to finalize your booking and payment:`;
-
-                        confirmation.innerHTML = `
-                            <p class="text-xl font-bold mb-4">✅ Inquiry Received! Contact Us to Book.</p>
-                            <p class="mb-6">${confirmationMessageText}</p>
-                            <div class="space-y-4">
-                                <p class="text-2xl font-extrabold text-yellow-400">📞 Call or Text Now</p>
-                                <a href="tel:+14422221174" class="inline-block bg-white text-black font-bold py-3 px-8 rounded-full transition transform hover:bg-gray-200">
-                                    (44) 2222-1174
-                                </a>
-                                <p class="text-2xl font-extrabold text-yellow-400 mt-6">📧 Email Us</p>
-                                <a href="mailto:info@yourluxurylimo.com" class="inline-block bg-white text-black font-bold py-3 px-8 rounded-full transition transform hover:bg-gray-200">
-                                    info@yourluxurylimo.com
-                                </a>
-                            </div>
-                            <p class="mt-4 text-sm text-gray-400">An agent will also be reaching out to you shortly via the contact information you provided to confirm your custom quote.</p>
-                        `;
-                    }
-                    
-                } else {
-                    // --- 5. Handle Server/Formspree Error ---
-                    const data = await response.json();
-                    let message = data.error || 'The server reported an error. Please try again.';
-
-                    confirmation.classList.remove('hidden', 'bg-yellow-900/50', 'text-yellow-300');
-                    confirmation.classList.add('bg-red-900/50', 'text-red-300');
-                    confirmation.innerHTML = `🛑 Submission failed: ${message}`;
-                }
-
-            } catch (error) {
-                // --- 6. Handle Network Error ---
-                console.error("Network or Submission failed:", error);
-                confirmation.classList.remove('hidden', 'bg-yellow-900/50', 'text-yellow-300');
-                confirmation.classList.add('bg-red-900/50', 'text-red-300');
-                confirmation.innerHTML = `🛑 Network error occurred. Check your connection or console.`;
-
-            } finally {
-                // --- 7. Re-enable Button and Scroll ---
-                submitButton.disabled = false;
-                submitButton.innerHTML = 'SEND INQUIRY';
-                confirmation.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
-
-        // Set today's date as minimum for trip date input on load
-        window.onload = function() {
-            const today = new Date().toISOString().split('T')[0];
-            document.getElementById('tripDate').setAttribute('min', today);
-        };
-    </script>
 </body>
 </html>
