@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JFK Black Cars</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Inter',sans-serif;background:#fff;color:#111}
+.header{position:fixed;top:0;width:100%;background:#fff;border-bottom:1px solid #e0e0e0;z-index:1000}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:76px;max-width:1180px;margin:0 auto;padding:0 24px;font-size:14px}
+.logo{font-weight:600;font-size:18px;letter-spacing:.5px}
+.nav{display:flex;align-items:center;gap:28px}
+.nav-link{color:#111;transition:color .2s}.nav-link:hover{color:#c9a96e}
+.arrow{font-size:10px;margin-left:4px}
+.btn-signin{background:#000;color:#fff;padding:10px 18px;border-radius:4px;font-weight:500}
+
+.booking-bar{background:#fafafa;border-bottom:1px solid #e0e0e0;padding:32px 0;margin-top:76px}
+.booking-wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.booking-title{font-size:32px;font-weight:300;margin-bottom:24px;letter-spacing:-1px}
+.booking-row{display:flex;align-items:end;gap:12px;flex-wrap:wrap}
+.booking-slot{background:#fff;border:1px solid #ccc;border-radius:4px;padding:14px;width:200px}
+.booking-slot label{font-size:11px;color:#666;text-transform:uppercase;letter-spacing:.5px}
+.booking-slot input,.booking-slot select{border:none;outline:none;font-size:14px;color:#111;width:100%}
+.btn-book{background:#c9a96e;color:#fff;padding:14px 28px;border:none;border-radius:4px;font-weight:500;cursor:pointer}
+.btn-book:hover{background:#b08c57}
+.note{font-size:12px;color:#666;margin-top:8px}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a class="logo" href="/">JFK Black Cars</a>
+    <nav class="nav">
+      <a class="nav-link" href="#">Our services<span class="arrow">▼</span></a>
+      <a class="nav-link" href="#">For business</a>
+      <a class="nav-link" href="#">For chauffeurs</a>
+      <a class="nav-link" href="#">Help</a>
+      <a class="nav-link" href="#">English<span class="arrow">▼</span></a>
+      <a class="btn-signin" href="#">@ Sign in</a>
+    </nav>
+  </div>
+</header>
+
+<section class="booking-bar">
+  <div class="booking-wrap">
+    <div class="booking-title">Limo Service in NYC</div>
+    <div class="booking-row">
+      <div class="booking-slot"><label>One way</label><select><option>One way</option><option>By the hour</option></select></div>
+      <div class="booking-slot"><label>From</label><input type="text" placeholder="Address, airport, hotel,"></div>
+      <div class="booking-slot"><label>To</label><input type="text" placeholder="Address, airport, hotel,"></div>
+      <div class="booking-slot"><label>Date</label><input type="date" value="2026-01-17"></div>
+      <div class="booking-slot"><label>Pickup time</label><input type="time" value="04:11"></div>
+      <button class="btn-book">Search</button>
+    </div>
+    <div class="note">Chauffeur will wait 15 minutes</div>
+  </div>
+</section>
+
+</body>
+</html>
